@@ -27,30 +27,6 @@ public class ExceptionHandlingMiddleware
     catch (Exception ex)
     {
       await HandleExceptionAsync(httpContext, ex);
-      //_logger.LogError($"{ex.GetType()}: {ex.Message}");
-
-      //if (ex.InnerException is not null)
-      //{
-      //  _logger.LogError($"{ex.InnerException.GetType()}: {ex.InnerException.Message}");
-      //}
-
-      //if (ex.GetType() == typeof(NotFoundException))
-      //{
-      //  httpContext.Response.StatusCode = StatusCodes.Status404NotFound;
-      //}
-      //else
-      //{
-      //  if (ex.GetType() == typeof(BadRequestException))
-      //  {
-      //    httpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
-      //  }
-      //  else
-      //  {
-      //    httpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
-      //  }
-      //}
-
-      //await httpContext.Response.WriteAsJsonAsync(new { Message = ex.Message, Type = ex.GetType().ToString() });
     }
   }
 

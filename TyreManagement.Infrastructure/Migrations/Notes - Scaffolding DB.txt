@@ -1,0 +1,4 @@
+1. Open Nuget package manager console and select persistance project.
+2. Run: Add-Migration InitialMigration
+3. Run: Update-Database
+4. To remove a migration - Run: Remove-Migration

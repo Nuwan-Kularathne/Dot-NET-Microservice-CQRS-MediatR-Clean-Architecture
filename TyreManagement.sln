@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.API", "TyreManagement.API\TyreManagement.API.csproj", "{44CADD1B-69B0-40DB-A855-5C8F0ADD16C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.Persistence", "TyreManagement.Infrastructure\TyreManagement.Persistence.csproj", "{A8B5F7E8-CC4A-413B-B1CA-62FEFC3DBCD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.Persistence", "TyreManagement.Persistence\TyreManagement.Persistence.csproj", "{A8B5F7E8-CC4A-413B-B1CA-62FEFC3DBCD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.Core", "TyreManagement.Core\TyreManagement.Core.csproj", "{3C7E769E-CD64-481B-818C-5D50DAD16656}"
 EndProject

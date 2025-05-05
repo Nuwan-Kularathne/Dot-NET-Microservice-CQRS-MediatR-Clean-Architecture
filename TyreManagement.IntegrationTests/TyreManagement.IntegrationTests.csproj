@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TyreManagement.Infrastructure\TyreManagement.Persistence.csproj" />
+    <ProjectReference Include="..\TyreManagement.Persistence\TyreManagement.Persistence.csproj" />
   </ItemGroup>
 
   <ItemGroup>

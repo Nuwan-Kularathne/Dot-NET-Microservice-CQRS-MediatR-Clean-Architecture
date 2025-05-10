@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TyreManagement.Core.Entities;
-using TyreManagement.Core.Entities.Common;
+using TyreManagement.Core.Domain.Entities;
+using TyreManagement.Core.Domain.Entities.Common;
 
 namespace TyreManagement.Persistence.DatabaseContext
 

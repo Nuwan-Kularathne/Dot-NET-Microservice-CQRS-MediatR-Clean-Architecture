@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using TyreManagement.Core.Contracts.RepositoryContracts;
+using TyreManagement.Core.Domain.Contracts.RepositoryContracts;
 using TyreManagement.Persistence.DatabaseContext;
 using TyreManagement.Persistence.Repository;
 

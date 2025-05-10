@@ -1,11 +1,11 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using TyreManagement.Core.DTO;
-using TyreManagement.Core.Features.TyreProduct.Commands.CreateTyreProduct;
-using TyreManagement.Core.Features.TyreProduct.Commands.UpdateTyreProduct;
-using TyreManagement.Core.Features.TyreProduct.Commands.DeleteTyreProduct;
-using TyreManagement.Core.Features.TyreProduct.Queries.GetAllTyreProducts;
-using TyreManagement.Core.Features.TyreProduct.Queries.GetTyreProduct;
+using TyreManagement.Core.Application.Features.TyreProduct.Commands.CreateTyreProduct;
+using TyreManagement.Core.Application.Features.TyreProduct.Commands.UpdateTyreProduct;
+using TyreManagement.Core.Application.Features.TyreProduct.Commands.DeleteTyreProduct;
+using TyreManagement.Core.Application.Features.TyreProduct.Queries.GetAllTyreProducts;
+using TyreManagement.Core.Application.Features.TyreProduct.Queries.GetTyreProduct;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

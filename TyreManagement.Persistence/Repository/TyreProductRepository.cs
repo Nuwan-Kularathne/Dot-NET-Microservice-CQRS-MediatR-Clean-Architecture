@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TyreManagement.Persistence.DatabaseContext;
-using TyreManagement.Core.Entities;
-using TyreManagement.Core.Contracts.RepositoryContracts;
+using TyreManagement.Core.Domain.Entities;
+using TyreManagement.Core.Domain.Contracts.RepositoryContracts;
 using Microsoft.EntityFrameworkCore;
 
 namespace TyreManagement.Persistence.Repository

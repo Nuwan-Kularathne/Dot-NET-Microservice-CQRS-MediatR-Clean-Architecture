@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TyreManagement.Core.Entities;
+using TyreManagement.Core.Domain.Entities;
 
 namespace TyreManagement.Persistence.Configuration;
 

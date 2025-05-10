@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TyreManagement.Core\TyreManagement.Core.csproj" />
+    <ProjectReference Include="..\TyreManagement.Core.Application\TyreManagement.Core.Application.csproj" />
     <ProjectReference Include="..\TyreManagement.Persistence\TyreManagement.Persistence.csproj" />
   </ItemGroup>
 

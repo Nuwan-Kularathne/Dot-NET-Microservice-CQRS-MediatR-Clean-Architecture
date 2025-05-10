@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Shouldly;
 using TyreManagement.Persistence.DatabaseContext;
-using TyreManagement.Core.Entities;
+using TyreManagement.Core.Domain.Entities;
 
 namespace TyreManagement.IntegrationTests
 {

@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
 using Moq;
 using Shouldly;
-using TyreManagement.Core.Contracts.RepositoryContracts;
+using TyreManagement.Core.Domain.Contracts.RepositoryContracts;
 using TyreManagement.Core.DTO;
 using TyreManagement.Core.Exceptions;
-using TyreManagement.Core.Features.TyreProduct.Commands.UpdateTyreProduct;
-using TyreManagement.Core.Features.TyreProduct.Queries.GetAllTyreProducts;
-using TyreManagement.Core.Features.TyreProduct.Queries.GetTyreProduct;
-using TyreManagement.Core.MappingProfiles;
+using TyreManagement.Core.Application.Features.TyreProduct.Commands.UpdateTyreProduct;
+using TyreManagement.Core.Application.Features.TyreProduct.Queries.GetAllTyreProducts;
+using TyreManagement.Core.Application.Features.TyreProduct.Queries.GetTyreProduct;
+using TyreManagement.Core.Application.MappingProfiles;
 using TyreManagement.UnitTests.Mocks;
 
 namespace TyreManagement.UnitTests.Features.TyreProduct.Queries

@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.API", "TyreM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.Persistence", "TyreManagement.Persistence\TyreManagement.Persistence.csproj", "{A8B5F7E8-CC4A-413B-B1CA-62FEFC3DBCD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.Core", "TyreManagement.Core\TyreManagement.Core.csproj", "{3C7E769E-CD64-481B-818C-5D50DAD16656}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.Core.Application", "TyreManagement.Core.Application\TyreManagement.Core.Application.csproj", "{3C7E769E-CD64-481B-818C-5D50DAD16656}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.UnitTests", "TyreManagement.UnitTests\TyreManagement.UnitTests.csproj", "{2723BC1A-1F1E-AA74-9E2A-99D48A4F1DC9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.IntegrationTests", "TyreManagement.IntegrationTests\TyreManagement.IntegrationTests.csproj", "{8EB7B37E-0B49-4A10-ACB7-535FCF7CAB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyreManagement.Core.Domain", "TyreManagement.Core.Domain\TyreManagement.Core.Domain.csproj", "{E0950A27-3845-4B58-AE57-FBCC9DC44024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8EB7B37E-0B49-4A10-ACB7-535FCF7CAB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB7B37E-0B49-4A10-ACB7-535FCF7CAB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB7B37E-0B49-4A10-ACB7-535FCF7CAB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0950A27-3845-4B58-AE57-FBCC9DC44024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0950A27-3845-4B58-AE57-FBCC9DC44024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0950A27-3845-4B58-AE57-FBCC9DC44024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0950A27-3845-4B58-AE57-FBCC9DC44024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

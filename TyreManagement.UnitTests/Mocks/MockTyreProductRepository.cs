@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TyreManagement.Core.Contracts.RepositoryContracts;
-using TyreManagement.Core.Entities;
+using TyreManagement.Core.Domain.Contracts.RepositoryContracts;
+using TyreManagement.Core.Domain.Entities;
 
 namespace TyreManagement.UnitTests.Mocks
 {
